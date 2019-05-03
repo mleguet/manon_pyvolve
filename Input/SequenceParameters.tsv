@@ -1,0 +1,60 @@
+### PARAMETERS SEQUENCES LEVEL ###
+## Please refer to the manual for more details
+#
+## The number of expected substitutions per unit of time (1 by default) #2
+SCALING	1
+#
+## CODON_MODEL can be either 'MG' (Muse-Gaut) or 'GY' (Goldman-Yang)
+#
+CODON_MODEL	MG
+#
+## Alpha (dS) is the rate of synonymous change (positive value)
+#
+ALPHA	1
+#
+## Beta (dN) is the rate of non-synonymous change (positive value)
+#
+BETA	0.5
+#
+## Corresponds to the transition/transversion ratio (positive value)
+#
+KAPPA	1.0
+#
+## Size of simulated genes
+#
+SIZE	2000
+#
+## Number of simulated genes
+GENE_NUMBER	 100
+#
+## Folder Output genes
+#
+OUTPUT_GENE	./gene
+#
+## Folder output mega sequence
+#
+OUTPUT_SEQ	./Output
+#
+## Folder input tree
+#
+TREE	./Input/tree.nwk
+#
+## HT size
+#
+HT_SIZE	2000
+#
+## Folder Output HT
+#
+OUTPUT_HT	./HT
+#
+## Folder Input tree HT
+#
+HT_TREE	./Input/deug-root.nwk
+#
+## Option 
+#1 : simulate gene and HT
+#2 : simulate only gene
+#3 : simulate only HT
+#
+OPTION	3
+
